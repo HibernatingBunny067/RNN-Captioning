@@ -1,6 +1,6 @@
 # 🧠 RNN-Based Image Captioning with Attention
 
-This project implements an image captioning pipeline using Recurrent Neural Networks (RNNs) and the Bahdanau attention mechanism. It is trained and evaluated on the MS COCO dataset (Karpathy splits). The model generates natural language descriptions of input images based on visual features extracted from a pretrained CNN.The model architecture is inspired from the 2015 paper "Show, Attend and Tell"
+This project implements an image captioning pipeline using Recurrent Neural Networks (RNNs) and the Bahdanau attention mechanism. It is trained and evaluated on the MS COCO dataset (Karpathy splits). The model generates natural language descriptions of input images based on visual features extracted from a pretrained CNN.The model architecture is inspired from the 2015 paper ["Show, Attend and Tell"](https://arxiv.org/abs/1502.03044)
 
 ## [**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ### 3. Prepare data
 
-Precompute CNN features using 'batched_pre_compute' from "loaders.py" or download pre-extracted features.
+Precompute CNN features using 'batched_pre_compute' from "loaders.py" or [download pre-extracted features](https://drive.google.com/drive/folders/1Wfq8GOI_W_1YMxpZdsf1U7jJcsdDJ9hu?usp=sharing).
 
 ---
 
