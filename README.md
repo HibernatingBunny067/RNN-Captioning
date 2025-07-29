@@ -132,7 +132,7 @@ git clone https://github.com/HibernatingBunny067/RNN-Captioning.git
 
 ## 👨‍🔬 Author
 
-Harikesh @ IIT ISM
+[Harikesh](www.linkedin.com/in/harikesh-pratap-verma-852797256) @ IIT ISM
 Feel free to raise issues or submit pull requests!
 
 ---
