@@ -5,7 +5,7 @@ This project implements an image captioning pipeline using Recurrent Neural Netw
 [**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
 
 **RESULTS**<br>
-The best trained Vgg based model, gave a *BLeU-04 score of 0.1978* and *BLeU-01 of 0.60* on **25% of the MS COCO Dataset **
+The best trained Vgg based model, gave a *BLeU-04 score of 0.1978* and *BLeU-01 of 0.60* on **25% of the MS COCO Dataset**
 
 ---
 
