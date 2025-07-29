@@ -2,6 +2,8 @@
 
 This project implements an image captioning pipeline using Recurrent Neural Networks (RNNs) and the Bahdanau attention mechanism. It is trained and evaluated on the MS COCO dataset (Karpathy splits). The model generates natural language descriptions of input images based on visual features extracted from a pretrained CNN.The model architecture is inspired from the 2015 paper "Show, Attend and Tell"
 
+## [**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
+
 ---
 
 ## 📦 Features
@@ -19,10 +21,9 @@ This project implements an image captioning pipeline using Recurrent Neural Netw
 ```bash
 .
 ├── data/                 # Python scripts to preprocess and use the MS COCO data.
-├── model/                # Trained models(.pt) along with model source code 
+├── model/                # Trained models(.pt) along with model source code and metric calculating script  
 ├── model_checkpoints/    # final model checkpoints with every architecture detail
 ├── notebooks/            # Jupyter notebooks I used to train,test and experimented with the model
-├── utils/                # Helper scripts (tokenizer, BLEU, etc.)
 ├── coco/                 # COCO annotation jsons, test-images and data sample used along with the vocabulary
 ├── requirements.txt
 └── README.md
@@ -85,10 +86,9 @@ Precompute CNN features using 'batched_pre_compute' from "loaders.py" or downloa
 
 ## 🧪 Sample Results
 
-| Image | Generated Caption                                       |
-| ----- | ------------------------------------------------------- |
-| 🖼️   | *"A man riding a horse on a beach at sunset."*          |
-| 🖼️   | *"A group of people sitting around a table with food."* |
+![Sample Caption](samples/map3.png)
+![Sample Caption](samples/map5.png)
+
 
 ---
 
