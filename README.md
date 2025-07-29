@@ -4,6 +4,9 @@ This project implements an image captioning pipeline using Recurrent Neural Netw
 
 ## [**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
 
+## Results 
+The best trained Vgg based model, gave a BLeU-04 score of 0.1978 and BLeU-01 of 0.60 on 25% of the MS COCO Dataset 
+
 ---
 
 ## 📦 Features
@@ -59,6 +62,11 @@ pip install -r requirements.txt
 ### 3. Prepare data
 
 Precompute CNN features using 'batched_pre_compute' from "loaders.py" or [download pre-extracted features](https://drive.google.com/drive/folders/1Wfq8GOI_W_1YMxpZdsf1U7jJcsdDJ9hu?usp=sharing).
+
+### 4. Upload the repo to google colab 
+- user is advised to use google colab
+- the notebooks provided under Notebooks/ can be used to get familiarity with the code usage
+- user can modify the existing training and testing code to experiment with the model architecture 
 
 ---
 
