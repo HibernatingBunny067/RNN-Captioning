@@ -118,8 +118,7 @@ git clone https://github.com/HibernatingBunny067/RNN-Captioning.git
 ## 📌 To-Do
 
 * [ ] Add support for beam search decoding
-* [ ] Add transformer-based captioning baseline
-* [ ] Streamlined demo notebook
+* [ ] Add feature for user to upload the image in the demo hugging face app and see the generated caption with attention map 
 
 ---
 

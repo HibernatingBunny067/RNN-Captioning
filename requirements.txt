@@ -1,0 +1,8 @@
+torch 
+torchvision 
+torchinfo
+opencv-python
+PIL 
+re
+numpy 
+matplotlib
