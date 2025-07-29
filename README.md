@@ -2,10 +2,10 @@
 
 This project implements an image captioning pipeline using Recurrent Neural Networks (RNNs) and the Bahdanau attention mechanism. It is trained and evaluated on the MS COCO dataset (Karpathy splits). The model generates natural language descriptions of input images based on visual features extracted from a pretrained CNN.The model architecture is inspired from the 2015 paper ["Show, Attend and Tell"](https://arxiv.org/abs/1502.03044)
 
-## [**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
+[**DEMO**](https://huggingface.co/spaces/harrykesh/Captioning_Demo)
 
-## Results 
-The best trained Vgg based model, gave a BLeU-04 score of 0.1978 and BLeU-01 of 0.60 on 25% of the MS COCO Dataset 
+**RESULTS**
+The best trained Vgg based model, gave a *BLeU-04 score of 0.1978* and *BLeU-01 of 0.60* on **25% of the MS COCO Dataset **
 
 ---
 
